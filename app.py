@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 import yfinance as yf
 
-st.set_page_title("Quotex Pro Prediction Bot", layout="centered")
+st.set_page_config(page_title="Quotex Pro Prediction Bot", layout="centered")
+
 
 st.title("📈 Quotex 1-Min & 5-Min Advanced Signal Bot")
 st.write("Welcome Dada! Select any live currency pair, crypto, commodity, or index below to get high-accuracy binary prediction signals.")
