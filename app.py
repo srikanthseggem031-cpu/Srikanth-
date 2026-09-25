@@ -135,5 +135,6 @@ if st.button("Generate Binary Prediction"):
             st.error(f"An error occurred during market scanning: {e}")
 
 st.markdown("---")
+st.caption("Quotex Advanced Prediction Bot is live on Streamlit Cloud, Dada.") 
 st.caption("Quotex Advanced Prediction Bot is live on Streamlit Cloud, Dada.")
-                                   
+
